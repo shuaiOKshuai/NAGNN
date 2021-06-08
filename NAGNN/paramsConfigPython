@@ -1,0 +1,83 @@
+[param]
+
+###############################################################
+# dataset setup
+###############################################################
+
+# root dir for datasets  
+root_dir = ../dataset/
+
+# dataset name
+dataset = cora
+
+# gpu id
+gpu = 0
+
+###############################################################
+# main parameters in experiments
+###############################################################
+
+# layers dimensions setting, to set the dimensions of each layer. use ',' to split the dims
+hid_units = 8
+
+# the default standard deviation for normal distribution for sampling
+sigma = 0.01
+
+# the weight for fake samples
+alpha = 0.5
+
+# the time for fake nodes wrt one real node
+m_D = 10
+
+# dropout, remove, keep = 1-dropout
+dropout = 0.6
+
+# in each batch data, the inner training epochs for D
+inner_epoch_D = 20
+
+# in each batch data, the inner training epochs for G
+inner_epoch_G = 10
+
+# learning rate
+lr_D = 0.005
+
+# learning rate
+lr_G = 0.001
+
+###############################################################
+# other parameters that may not need too much modification
+###############################################################
+
+# coefficient of l2 regularization 
+pre_l2_coef = 0.0005
+
+# coefficient of l2 regularization 
+GAN_D_l2_coef = 0.001
+
+# coefficient of l2 regularization 
+GAN_G_l2_coef = 0.001
+
+# coef for each dataset with different labels number
+l2_coef_param = 0.005
+
+# pretrain epoch for D
+D_pretrain_epoch = 100000
+
+# pretrain patience epoch for D
+D_pretrain_patience = 100
+
+# pretrain epoch for G
+G_pretrain_epoch = 1000
+
+# the weight param for G pretrain
+G_pretrain_param = 0.0
+
+# the min loss value in G pre-train
+G_pretrain_min_loss = 1.0
+
+# epoch
+epoch_num = 500
+
+# patience epoch for training
+patience = 200
+

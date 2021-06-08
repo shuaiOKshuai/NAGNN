@@ -28,8 +28,8 @@ We present the datasets and code for our paper "Neighbor-Anchoring Adversarial G
 
 ## 3. How to run
 
-- (1) First configure the parameters in file "paramsConfigPython"
-- (2) Run "python3 mainGAN.py"
+- (1) First configure the parameters in file "paramsConfigPython";
+- (2) Run "python3 mainGAN.py".
 	
 	remark : Command "python3 mainGAN.py" would call the pretrain (including D and G), train, validation and test together, and finally output the prediction results on the test data.
 

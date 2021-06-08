@@ -53,7 +53,7 @@ The readers can also prepare their own datasets. For the own data: five files sh
 
 ## 5. Note
 
-We provide the code for NAGCN in folder "NAGNN". For other GNN models, the readers can form the corresponding NA* versions, by replacing the current GNN model in Discriminator.
+We provide the code for NAGCN in folder "NAGNN" with base model GCN. For other GNN models, the readers can form the corresponding NA* versions by replacing the current GNN model in Discriminator.
 
 
 ## 6. Cite

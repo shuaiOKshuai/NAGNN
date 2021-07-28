@@ -2,7 +2,7 @@
 
 # Neighbor-Anchoring Adversarial Graph Neural Networks
 
-We present the datasets and code for our paper "Neighbor-Anchoring Adversarial Graph Neural Networks" (NAGNN for short), which is published in TKDE (2021).
+We present the datasets and code for our paper "[Neighbor-Anchoring Adversarial Graph Neural Networks](https://zemin-liu.github.io/papers/NAGNN_TKDE_final_Zemin.pdf)" (NAGNN for short), which is published in TKDE (2021).
 
 
 ## 1. Description for each file
